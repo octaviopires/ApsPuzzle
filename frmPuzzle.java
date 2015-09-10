@@ -50,6 +50,11 @@ public class frmPuzzle
 		final JLabel lbl1 = new JLabel("");
 		final JLabel lbl2 = new JLabel("");
 
+		/* cpt1 e cpt2 são imagens aleatórias que eu escolhi que eu escolhi
+		 clica com botão direito no projeto e executa:  new > source folder. Pode dar o nome que quiser
+		 pra pasta
+		 e coloca as imagens la com os nome cpt1 e cpt2 
+		*/
 		
 		img1 = new ImageIcon(this.getClass().getResource("cpt1.jpg")).getImage();
 		img2 = new ImageIcon(this.getClass().getResource("cpt2.jpg")).getImage();
